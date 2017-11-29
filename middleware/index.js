@@ -13,7 +13,7 @@ middlewareobj.checkCommentOwn =function(req,res,next){
         Comment.findById(req.params.comment_id,function(err,found){
        if(err)
        {
-            req.flash("error","Campground not found!!");
+            req.flash("error","Tourist site not found!!");
            res.redirect("/campgrounds");
        }else
        {
@@ -39,7 +39,7 @@ middlewareobj.isAuthorisedUser = function(req,res,next){
         Campground.findById(req.params.id,function(err,found){
        if(err)
        {
-           req.flash("error","Campground not found!!");
+           req.flash("error","Tourist site not found!!");
            res.redirect("/campgrounds");
        }else
        {
