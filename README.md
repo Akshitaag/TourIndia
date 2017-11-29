@@ -28,3 +28,5 @@ npm install
 node app.js
 ```
 Open Your favourite browser and go to localhost:3000 to access this site.
+
+This was made as a part of web development bootcamp on udemy.
