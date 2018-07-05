@@ -1,5 +1,6 @@
 .thumbnail{
     padding:0;
+    box-shadow: 0 10px 18px rgba(0,0,0,0.39), 0 8px 8px rgba(0,0,0,0.33);
 }
 .img-responsive{
     width:100% ;
