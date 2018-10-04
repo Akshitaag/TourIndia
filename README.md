@@ -1,6 +1,6 @@
 # TourIndia
 
-This is a simple app made in node.js .This app provides information of some famous adventure sites in India.A logged in user can create, edit and delete sites from database.
+This is a simple app made in node.js.This app provides information of some famous adventure sites in India. A logged in user can create, edit and delete sites from database.
 
 ## Functionalities
 
